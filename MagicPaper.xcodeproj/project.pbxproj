@@ -13,6 +13,7 @@
 		A6AA1DB2212F908300D5E34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB0212F908300D5E34C /* Main.storyboard */; };
 		A6AA1DB4212F908700D5E34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB3212F908700D5E34C /* Assets.xcassets */; };
 		A6AA1DB7212F908700D5E34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB5212F908700D5E34C /* LaunchScreen.storyboard */; };
+		A6AA1DBF212F90A900D5E34C /* HarryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6AA1DB3212F908700D5E34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6AA1DB6212F908700D5E34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6AA1DB8212F908700D5E34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarryPotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A6AA1DAA212F908300D5E34C /* AppDelegate.swift */,
 				A6AA1DAC212F908300D5E34C /* art.scnassets */,
 				A6AA1DAE212F908300D5E34C /* ViewController.swift */,
+				A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */,
 				A6AA1DB0212F908300D5E34C /* Main.storyboard */,
 				A6AA1DB3212F908700D5E34C /* Assets.xcassets */,
 				A6AA1DB5212F908700D5E34C /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AA1DAD212F908300D5E34C /* art.scnassets in Resources */,
+				A6AA1DBF212F90A900D5E34C /* HarryPotter.mp4 in Resources */,
 				A6AA1DB7212F908700D5E34C /* LaunchScreen.storyboard in Resources */,
 				A6AA1DB4212F908700D5E34C /* Assets.xcassets in Resources */,
 				A6AA1DB2212F908300D5E34C /* Main.storyboard in Resources */,
