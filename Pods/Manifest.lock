@@ -1,0 +1,16 @@
+PODS:
+  - Gemini (1.3.0)
+
+DEPENDENCIES:
+  - Gemini
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gemini
+
+SPEC CHECKSUMS:
+  Gemini: 1a932868fa70579457162c3a93cd844ad5df3455
+
+PODFILE CHECKSUM: 4484df0dceca7f03e5f91049a1de044bc2c0c6ff
+
+COCOAPODS: 1.5.3

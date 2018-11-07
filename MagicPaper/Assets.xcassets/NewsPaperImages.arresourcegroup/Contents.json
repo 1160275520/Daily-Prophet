@@ -5,7 +5,34 @@
   },
   "resources" : [
     {
+      "filename" : "azkaban.arreferenceimage"
+    },
+    {
+      "filename" : "death.arreferenceimage"
+    },
+    {
+      "filename" : "dumbledore.arreferenceimage"
+    },
+    {
+      "filename" : "harry.arreferenceimage"
+    },
+    {
       "filename" : "HarryPotter.arreferenceimage"
+    },
+    {
+      "filename" : "hogwarts.arreferenceimage"
+    },
+    {
+      "filename" : "london.arreferenceimage"
+    },
+    {
+      "filename" : "malfoy.arreferenceimage"
+    },
+    {
+      "filename" : "muggle.arreferenceimage"
+    },
+    {
+      "filename" : "sirusblack.arreferenceimage"
     }
   ]
 }

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6068B952138A03400C6938D /* NewspaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6068B942138A03400C6938D /* NewspaperViewController.swift */; };
+		A62A88CF21370B380010D6B1 /* azkaban.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88CE21370B380010D6B1 /* azkaban.mp4 */; };
+		A62A88D121370B3F0010D6B1 /* dumbledore.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88D021370B3F0010D6B1 /* dumbledore.mp4 */; };
+		A62A88D321370EA90010D6B1 /* hogwarts.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88D221370EA90010D6B1 /* hogwarts.mp4 */; };
+		A62A88D621370F5D0010D6B1 /* malfoy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88D521370F5D0010D6B1 /* malfoy.mp4 */; };
+		A62A88D821370F690010D6B1 /* rap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88D721370F690010D6B1 /* rap.mp4 */; };
+		A62A88DC21370F980010D6B1 /* magicstone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88DB21370F980010D6B1 /* magicstone.mp4 */; };
+		A62A88DE213719EF0010D6B1 /* choosing student.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A62A88DD213719EF0010D6B1 /* choosing student.mp4 */; };
+		A62A88E021372CFA0010D6B1 /* HomepageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A88DF21372CFA0010D6B1 /* HomepageController.swift */; };
+		A62A88E2213737090010D6B1 /* InstructionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A88E1213737090010D6B1 /* InstructionController.swift */; };
+		A6AA1DAB212F908300D5E34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AA1DAA212F908300D5E34C /* AppDelegate.swift */; };
+		A6AA1DAD212F908300D5E34C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DAC212F908300D5E34C /* art.scnassets */; };
+		A6AA1DAF212F908300D5E34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AA1DAE212F908300D5E34C /* ViewController.swift */; };
+		A6AA1DB2212F908300D5E34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB0212F908300D5E34C /* Main.storyboard */; };
+		A6AA1DB4212F908700D5E34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB3212F908700D5E34C /* Assets.xcassets */; };
+		A6AA1DB7212F908700D5E34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DB5212F908700D5E34C /* LaunchScreen.storyboard */; };
+		A6AA1DBF212F90A900D5E34C /* HarryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */; };
+		ED23071621BBEFB4674CA17B /* Pods_Daily_Prophet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E116B83AE02B83E6011F24 /* Pods_Daily_Prophet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20791EB3082C485E447FCC48 /* Pods-Daily Prophet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Prophet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Prophet/Pods-Daily Prophet.release.xcconfig"; sourceTree = "<group>"; };
+		A6068B942138A03400C6938D /* NewspaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewspaperViewController.swift; sourceTree = "<group>"; };
+		A62A88CE21370B380010D6B1 /* azkaban.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = azkaban.mp4; sourceTree = "<group>"; };
+		A62A88D021370B3F0010D6B1 /* dumbledore.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dumbledore.mp4; sourceTree = "<group>"; };
+		A62A88D221370EA90010D6B1 /* hogwarts.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hogwarts.mp4; sourceTree = "<group>"; };
+		A62A88D521370F5D0010D6B1 /* malfoy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = malfoy.mp4; sourceTree = "<group>"; };
+		A62A88D721370F690010D6B1 /* rap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rap.mp4; sourceTree = "<group>"; };
+		A62A88DB21370F980010D6B1 /* magicstone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = magicstone.mp4; sourceTree = "<group>"; };
+		A62A88DD213719EF0010D6B1 /* choosing student.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "choosing student.mp4"; sourceTree = "<group>"; };
+		A62A88DF21372CFA0010D6B1 /* HomepageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageController.swift; sourceTree = "<group>"; };
+		A62A88E1213737090010D6B1 /* InstructionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionController.swift; sourceTree = "<group>"; };
+		A6AA1DA7212F908300D5E34C /* Daily Prophet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Prophet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AA1DAA212F908300D5E34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6AA1DAC212F908300D5E34C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A6AA1DAE212F908300D5E34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6AA1DB1212F908300D5E34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6AA1DB3212F908700D5E34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6AA1DB6212F908700D5E34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6AA1DB8212F908700D5E34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HarryPotter.mp4; sourceTree = "<group>"; };
+		C3E116B83AE02B83E6011F24 /* Pods_Daily_Prophet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Prophet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E2420C8B3F4FB0116F6E21 /* Pods-Daily Prophet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Prophet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Prophet/Pods-Daily Prophet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6AA1DA4212F908300D5E34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED23071621BBEFB4674CA17B /* Pods_Daily_Prophet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62334BEB9A4598A620619823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E116B83AE02B83E6011F24 /* Pods_Daily_Prophet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62A88D421370EB20010D6B1 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				A62A88D521370F5D0010D6B1 /* malfoy.mp4 */,
+				A62A88CE21370B380010D6B1 /* azkaban.mp4 */,
+				A62A88D021370B3F0010D6B1 /* dumbledore.mp4 */,
+				A62A88D221370EA90010D6B1 /* hogwarts.mp4 */,
+				A6AA1DBE212F90A900D5E34C /* HarryPotter.mp4 */,
+				A62A88D721370F690010D6B1 /* rap.mp4 */,
+				A62A88DB21370F980010D6B1 /* magicstone.mp4 */,
+				A62A88DD213719EF0010D6B1 /* choosing student.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+		A6AA1D9E212F908300D5E34C = {
+			isa = PBXGroup;
+			children = (
+				A6AA1DA9212F908300D5E34C /* MagicPaper */,
+				A6AA1DA8212F908300D5E34C /* Products */,
+				E5CD8133A616CE945B46122E /* Pods */,
+				62334BEB9A4598A620619823 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6AA1DA8212F908300D5E34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6AA1DA7212F908300D5E34C /* Daily Prophet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6AA1DA9212F908300D5E34C /* MagicPaper */ = {
+			isa = PBXGroup;
+			children = (
+				A6AA1DAA212F908300D5E34C /* AppDelegate.swift */,
+				A6AA1DAC212F908300D5E34C /* art.scnassets */,
+				A6AA1DAE212F908300D5E34C /* ViewController.swift */,
+				A62A88DF21372CFA0010D6B1 /* HomepageController.swift */,
+				A62A88E1213737090010D6B1 /* InstructionController.swift */,
+				A6068B942138A03400C6938D /* NewspaperViewController.swift */,
+				A6AA1DB0212F908300D5E34C /* Main.storyboard */,
+				A6AA1DB3212F908700D5E34C /* Assets.xcassets */,
+				A6AA1DB5212F908700D5E34C /* LaunchScreen.storyboard */,
+				A6AA1DB8212F908700D5E34C /* Info.plist */,
+				A62A88D421370EB20010D6B1 /* videos */,
+			);
+			path = MagicPaper;
+			sourceTree = "<group>";
+		};
+		E5CD8133A616CE945B46122E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6E2420C8B3F4FB0116F6E21 /* Pods-Daily Prophet.debug.xcconfig */,
+				20791EB3082C485E447FCC48 /* Pods-Daily Prophet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6AA1DA6212F908300D5E34C /* Daily Prophet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6AA1DBB212F908700D5E34C /* Build configuration list for PBXNativeTarget "Daily Prophet" */;
+			buildPhases = (
+				F8B5A1D183C75423ACCD981A /* [CP] Check Pods Manifest.lock */,
+				A6AA1DA3212F908300D5E34C /* Sources */,
+				A6AA1DA4212F908300D5E34C /* Frameworks */,
+				A6AA1DA5212F908300D5E34C /* Resources */,
+				554E595EBC91DD566C233A87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Prophet";
+			productName = MagicPaper;
+			productReference = A6AA1DA7212F908300D5E34C /* Daily Prophet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6AA1D9F212F908300D5E34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Yiwen Wang";
+				TargetAttributes = {
+					A6AA1DA6212F908300D5E34C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A6AA1DA2212F908300D5E34C /* Build configuration list for PBXProject "Daily Prophet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6AA1D9E212F908300D5E34C;
+			productRefGroup = A6AA1DA8212F908300D5E34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6AA1DA6212F908300D5E34C /* Daily Prophet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6AA1DA5212F908300D5E34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AA1DAD212F908300D5E34C /* art.scnassets in Resources */,
+				A6AA1DBF212F90A900D5E34C /* HarryPotter.mp4 in Resources */,
+				A62A88D321370EA90010D6B1 /* hogwarts.mp4 in Resources */,
+				A62A88DC21370F980010D6B1 /* magicstone.mp4 in Resources */,
+				A62A88D821370F690010D6B1 /* rap.mp4 in Resources */,
+				A62A88CF21370B380010D6B1 /* azkaban.mp4 in Resources */,
+				A62A88D621370F5D0010D6B1 /* malfoy.mp4 in Resources */,
+				A6AA1DB7212F908700D5E34C /* LaunchScreen.storyboard in Resources */,
+				A62A88DE213719EF0010D6B1 /* choosing student.mp4 in Resources */,
+				A6AA1DB4212F908700D5E34C /* Assets.xcassets in Resources */,
+				A62A88D121370B3F0010D6B1 /* dumbledore.mp4 in Resources */,
+				A6AA1DB2212F908300D5E34C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		554E595EBC91DD566C233A87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Daily Prophet/Pods-Daily Prophet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Gemini/Gemini.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gemini.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daily Prophet/Pods-Daily Prophet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B5A1D183C75423ACCD981A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily Prophet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6AA1DA3212F908300D5E34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62A88E2213737090010D6B1 /* InstructionController.swift in Sources */,
+				A6AA1DAF212F908300D5E34C /* ViewController.swift in Sources */,
+				A62A88E021372CFA0010D6B1 /* HomepageController.swift in Sources */,
+				A6AA1DAB212F908300D5E34C /* AppDelegate.swift in Sources */,
+				A6068B952138A03400C6938D /* NewspaperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6AA1DB0212F908300D5E34C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AA1DB1212F908300D5E34C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6AA1DB5212F908700D5E34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6AA1DB6212F908700D5E34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6AA1DB9212F908700D5E34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6AA1DBA212F908700D5E34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6AA1DBC212F908700D5E34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E2420C8B3F4FB0116F6E21 /* Pods-Daily Prophet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BT59M2C9;
+				INFOPLIST_FILE = MagicPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.starrwang.MagicPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6AA1DBD212F908700D5E34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20791EB3082C485E447FCC48 /* Pods-Daily Prophet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BT59M2C9;
+				INFOPLIST_FILE = MagicPaper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.starrwang.MagicPaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6AA1DA2212F908300D5E34C /* Build configuration list for PBXProject "Daily Prophet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AA1DB9212F908700D5E34C /* Debug */,
+				A6AA1DBA212F908700D5E34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6AA1DBB212F908700D5E34C /* Build configuration list for PBXNativeTarget "Daily Prophet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6AA1DBC212F908700D5E34C /* Debug */,
+				A6AA1DBD212F908700D5E34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6AA1D9F212F908300D5E34C /* Project object */;
+}
